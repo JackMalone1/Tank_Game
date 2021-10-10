@@ -1,0 +1,44 @@
+background:
+   file: ./resources/images/Background.jpg # Sample comment
+tank:
+   position: {x: 800, y: 100}
+   max_projectiles: 10
+   reload_time: 1000
+ai_tank:
+   position: {x: 400, y: 700}
+   max_projectiles: 10
+   reload_time: 1000
+projectile:
+   speed: 1000
+   damage: 10
+targets:
+   - type: regular
+     position: {x: 431, y: 647, randomOffset: 20}
+   - type: regular
+     position: {x: 836, y: 525, randomOffset: 20}
+   - type: regular
+     position: {x: 305, y: 294, randomOffset: 20}
+   - type: regular
+     position: {x: 1242, y: 174, randomOffset: 20}
+   - type: regular
+     position: {x: 228, y: 641, randomOffset: 20}
+   - type: regular
+     position: {x: 1267, y: 638, randomOffset: 20}
+   - type: regular
+     position: {x: 806, y: 121, randomOffset: 20}
+obstacles:
+   - type: wall
+     position: {x: 1254, y: 815}
+     rotation: 310
+   - type: wall
+     position: {x: 889, y: 318}
+     rotation: 188
+   - type: wall
+     position: {x: 452, y: 432}
+     rotation: 0
+   - type: wall
+     position: {x: 268, y: 842}
+     rotation: 0
+   - type: wall
+     position: {x: 122, y: 282}
+     rotation: 0
